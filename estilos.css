@@ -1,0 +1,68 @@
+#links-internos {
+  position: relative;
+  float: left;
+  background-color: gray;
+  height: 100vh;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 2.5%;
+  display: block;
+}
+aside > h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+li {
+  list-style: none;
+  display: block;
+  list-style-type: disc;
+}
+a {
+  text-decoration: none;
+}
+:link {
+  color: white;
+}
+
+:visited {
+  color: azure;
+}
+body {
+  margin: 0;
+}
+main {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-left: 2em;
+  padding-right: 2em;
+  height: 100vh;
+}
+
+.tabla-derecha {
+  background-color: gray;
+  float: right;
+  position: relative;
+  margin-left: 2em;
+}
+.tabla-izquierda {
+  background-color: gray;
+  float: left;
+  position: relative;
+  margin-right: 2em;
+}
+table {
+  width: 100%;
+  text-align: start;
+  padding: 10px;
+}
+div > img {
+  position: relative;
+  margin: 10px;
+}
+p {
+  text-align: justify;
+}
+tr {
+  text-align: left;
+}
